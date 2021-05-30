@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "194546821564",
+    "firebase_url": "https://myappcity-7eb6b-default-rtdb.firebaseio.com",
+    "project_id": "myappcity-7eb6b",
+    "storage_bucket": "myappcity-7eb6b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:194546821564:android:c4cae0c1749022df51a3b9",
+        "android_client_info": {
+          "package_name": "com.example.minhacidade"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "194546821564-iv86fq22ebjtrue60ditr582rh0mps78.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.minhacidade",
+            "certificate_hash": "bb0d9c77698c7b9556960a56774f6034b60a53b9"
+          }
+        },
+        {
+          "client_id": "194546821564-fiilcfkuv74l3p8trao2kc426br71qvi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgfXvZxMzuoBU6bxo2EiPcoFgM0TRn1tk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "194546821564-fiilcfkuv74l3p8trao2kc426br71qvi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

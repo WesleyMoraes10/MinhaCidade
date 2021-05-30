@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "991103809736",
+    "project_id": "minhacidade-767dc",
+    "storage_bucket": "minhacidade-767dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:991103809736:android:13bc4e51273267bc590dfd",
+        "android_client_info": {
+          "package_name": "com.minhacidade"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "991103809736-rptiid2o59qpvaufp6snhpi348r150qf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB9rrTerDyaDYU3PJczs0kwv9dy-VIung"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "991103809736-rptiid2o59qpvaufp6snhpi348r150qf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
