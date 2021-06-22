@@ -3,6 +3,7 @@ package com.example.minhacidade.activity;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.viewpager.widget.ViewPager;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,8 +13,14 @@ import android.view.MenuItem;
 
 import com.example.minhacidade.R;
 import com.example.minhacidade.config.ConfiguracaoFirebase;
+import com.example.minhacidade.fragment.DenunciaFragment;
+import com.example.minhacidade.fragment.ReclamacaoFragment;
+import com.example.minhacidade.fragment.SugestaoFragment;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.ogaclejapan.smarttablayout.SmartTabLayout;
+import com.ogaclejapan.smarttablayout.utils.v4.FragmentPagerItemAdapter;
+import com.ogaclejapan.smarttablayout.utils.v4.FragmentPagerItems;
 
 public class PrincipalMunicipeActivity extends AppCompatActivity {
 
@@ -32,6 +39,19 @@ public class PrincipalMunicipeActivity extends AppCompatActivity {
         toolbar.setSubtitle(usuarioAtual.getEmail());
         setSupportActionBar(toolbar);
 
+        //Configurando abas
+        FragmentPagerItemAdapter adapter = new FragmentPagerItemAdapter(
+                getSupportFragmentManager(),
+                FragmentPagerItems.with(this)
+                .add("Denúncia", DenunciaFragment.class)
+                .add("Reclamação", ReclamacaoFragment.class)
+                .add("Sugestão", SugestaoFragment.class)
+                .create()
+        );
+        ViewPager viewPager = findViewById(R.id.viewPager);
+        viewPager.setAdapter(adapter);
+        SmartTabLayout viewPageTab = findViewById(R.id.viewPagerTab);
+        viewPageTab.setViewPager(viewPager);
     }
 
 

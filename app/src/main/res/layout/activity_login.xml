@@ -12,10 +12,10 @@
 
     <ImageView
         android:layout_width="231dp"
-        android:layout_height="161dp"
+        android:layout_height="231dp"
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
-        app:srcCompat="@drawable/cidade" />
+        app:srcCompat="@drawable/logo3d" />
 
     <EditText
         android:id="@+id/editEmail"
